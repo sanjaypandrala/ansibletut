@@ -1,0 +1,20 @@
+---
+galaxy_info:
+
+  author: naga
+  description: MYSQL Database Role
+  company: NOA
+  min_ansible_version: 1.4
+  platforms:
+  - name: EL
+    versions:
+      _ all
+  - name: Ubuntu
+    versions:
+       - all
+  categories:
+  - database: sql
+
+
+
+

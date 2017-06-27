@@ -1,0 +1,13 @@
+---
+# www.yml: playbook for web servers
+- hosts: www
+  remote_user: vagrant
+  sudo: yes
+  roles:
+  - { role: nginx, port: 8080 }
+  pre_tasks:
+  - shell: echo 'I":" Begining to configure web werver..'
+  roles:
+  - nginx
+  post_tasks:
+  - shell: echo 'I":" Done configuring web werver..'
