@@ -1,0 +1,8 @@
+---
+# tasks file for wordpress
+
+# filename: roles/wordpress/tasks/main.yml
+
+- include: install.yml
+- include: configure.yml
+
